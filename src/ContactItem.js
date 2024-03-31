@@ -6,6 +6,7 @@ const ContactItem = () => {
     <Row>
       <Col lg={2}>
         <img 
+            alt=""
             width={50}
             src='https://www.transparentpng.com/thumb/user/blue-male-user-profile-transparent-png-2lbgMx.png'
         />

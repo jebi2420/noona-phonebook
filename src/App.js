@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      
+      <h1 className='title'>Phone Book</h1>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 let initialState = {
-    contactList:[]
+    contactList:[],
+    keyword:"",
 };
 
 // state는 항상 initialState가 있어야 한다.
@@ -16,6 +17,8 @@ function reducer(state=initialState, action){
           }
         ]
       }
+    case "SEARCH_BY_USERNAME":
+      return {...state, keyword: payload.keyword};
     default:   
       return {...state};
   }
